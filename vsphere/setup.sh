@@ -35,7 +35,6 @@ create_kind_cluster()
 {
     echo "kind cluster creation started, please wait for couple of mintues to come up ..."
     kind create cluster
-    sleep 20
     echo "kind cluster created successfully"
 }
 
